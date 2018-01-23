@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MvcPlannerApp.Models.Plans>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Добавляйте, изменяйте и удаляйте список своих планов тут!</h2>
+
+
+    <a class="btn btn-default" asp-action="Create">Добавить задачу!</a>
+
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    Наименование задачи
+                </th>
+                <th>
+                    Дата выполнения
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReleaseDate)
+            </td>
+            <td>
+                <a class="btn btn-default" asp-action="Edit" asp-route-id="@item.ID">Изменить</a>    |
+                <a class="btn btn-default" asp-action="Details" asp-route-id="@item.ID">Детали</a>    |
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.ID">Удалить</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
