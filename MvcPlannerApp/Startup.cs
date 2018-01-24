@@ -48,7 +48,7 @@ namespace MvcPlannerApp
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Plans}/{action=Index}/{id?}");
             });
         }
     }

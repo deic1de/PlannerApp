@@ -20,3 +20,14 @@ C:\Users\User\source\repos\PlannerApp\MvcPlannerApp\obj\Debug\netcoreapp2.0\MvcP
 C:\Users\User\source\repos\PlannerApp\MvcPlannerApp\obj\Debug\netcoreapp2.0\MvcPlannerApp.AssemblyInfo.cs
 C:\Users\User\source\repos\PlannerApp\MvcPlannerApp\obj\Debug\netcoreapp2.0\MvcPlannerApp.dll
 C:\Users\User\source\repos\PlannerApp\MvcPlannerApp\obj\Debug\netcoreapp2.0\MvcPlannerApp.pdb
+E:\Downloads\PlannerApp-master\PlannerApp-master\MvcPlannerApp\bin\Debug\netcoreapp2.0\MvcPlannerApp.deps.json
+E:\Downloads\PlannerApp-master\PlannerApp-master\MvcPlannerApp\bin\Debug\netcoreapp2.0\MvcPlannerApp.runtimeconfig.json
+E:\Downloads\PlannerApp-master\PlannerApp-master\MvcPlannerApp\bin\Debug\netcoreapp2.0\MvcPlannerApp.runtimeconfig.dev.json
+E:\Downloads\PlannerApp-master\PlannerApp-master\MvcPlannerApp\bin\Debug\netcoreapp2.0\MvcPlannerApp.dll
+E:\Downloads\PlannerApp-master\PlannerApp-master\MvcPlannerApp\bin\Debug\netcoreapp2.0\MvcPlannerApp.pdb
+E:\Downloads\PlannerApp-master\PlannerApp-master\MvcPlannerApp\obj\Debug\netcoreapp2.0\MvcPlannerApp.csprojResolveAssemblyReference.cache
+E:\Downloads\PlannerApp-master\PlannerApp-master\MvcPlannerApp\obj\Debug\netcoreapp2.0\MvcPlannerApp.csproj.CoreCompileInputs.cache
+E:\Downloads\PlannerApp-master\PlannerApp-master\MvcPlannerApp\obj\Debug\netcoreapp2.0\MvcPlannerApp.AssemblyInfoInputs.cache
+E:\Downloads\PlannerApp-master\PlannerApp-master\MvcPlannerApp\obj\Debug\netcoreapp2.0\MvcPlannerApp.AssemblyInfo.cs
+E:\Downloads\PlannerApp-master\PlannerApp-master\MvcPlannerApp\obj\Debug\netcoreapp2.0\MvcPlannerApp.dll
+E:\Downloads\PlannerApp-master\PlannerApp-master\MvcPlannerApp\obj\Debug\netcoreapp2.0\MvcPlannerApp.pdb
