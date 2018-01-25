@@ -1,15 +1,13 @@
 ﻿@model MvcPlannerApp.Models.Plans
-
 @{
     ViewData["Title"] = "Delete";
 }
-
+<environment include="Development">
+    <link rel="stylesheet" href="~/css/delete.css" />
+</environment>
 <h2>Удалить</h2>
-
-<h3>Вы уверены что хотите удалить это?</h3>
+<h3>Вы уверены что хотите удалить эту задачу?</h3>
 <div>
-    <h4>Планы</h4>
-    <hr />
     <dl class="dl-horizontal">
         <dt>
             Название задачи
@@ -24,10 +22,10 @@
             @Html.DisplayFor(model => model.ReleaseDate)
         </dd>
     </dl>
-    
+
     <form asp-action="Delete">
         <input type="hidden" asp-for="ID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <input type="submit" value="Удалить" class="btn btn-danger" />
         <a class="btn btn-default" asp-action="Index">Назад к списку</a>
     </form>
 </div>

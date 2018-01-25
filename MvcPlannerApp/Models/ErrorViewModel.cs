@@ -1,5 +1,3 @@
-using System;
-
 namespace MvcPlannerApp.Models
 {
     public class ErrorViewModel

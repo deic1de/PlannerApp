@@ -3,10 +3,10 @@
 @{
     ViewData["Title"] = "Index";
 }
-<h2>Добавляйте, изменяйте и удаляйте список своих планов тут!</h2>
+<h2>Добавляйте, изменяйте и удаляйте список своих задач тут!</h2>
 
 
-    <a class="btn btn-default" asp-action="Create">Добавить задачу!</a>
+    <a class="btn btn-primary" asp-action="Create">Добавить задачу</a>
 
 <table class="table">
     <thead>
@@ -30,8 +30,7 @@
                 @Html.DisplayFor(modelItem => item.ReleaseDate)
             </td>
             <td>
-                <a class="btn btn-default" asp-action="Edit" asp-route-id="@item.ID">Изменить</a>    |
-                <a class="btn btn-default" asp-action="Details" asp-route-id="@item.ID">Детали</a>    |
+                <a class="btn btn-default" asp-action="Edit" asp-route-id="@item.ID">Изменить</a>    
                 <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.ID">Удалить</a>
             </td>
         </tr>

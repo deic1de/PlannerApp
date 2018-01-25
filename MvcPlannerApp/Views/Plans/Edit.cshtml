@@ -4,9 +4,8 @@
     ViewData["Title"] = "Edit";
 }
 
-<h2>Изменить</h2>
+<h2>Изменить задачу</h2>
 
-<h4>Планы</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -24,15 +23,13 @@
                 <span asp-validation-for="ReleaseDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Сохранить изменения" class="btn btn-default" />
+                <input type="submit" value="Сохранить изменения" class="btn btn-primary" />
+                <a class="btn btn-default" asp-action="Index">Назад к списку</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a class="btn btn-default" asp-action="Index">Назад к списку</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

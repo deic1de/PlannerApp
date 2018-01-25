@@ -11,9 +11,10 @@ using System;
 namespace MvcPlannerApp.Migrations
 {
     [DbContext(typeof(MvcPlannerAppContext))]
-    partial class MvcPlannerAppContextModelSnapshot : ModelSnapshot
+    [Migration("20180125170942_AddReleaseDate")]
+    partial class AddReleaseDate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
